@@ -4,22 +4,22 @@
 
 class Translation(object):
     
-    START_TEXT = """<b>Hey {}How are you!!</b>
-<i>Am Just A Advance Auto Filter Bot....😉
+    START_TEXT = """<b>Hey {} How are you!!</b>
+<i>Am Just A Advance Auto Filter Bot Only For FF Group😉😁
 
 You Can't add me to your Group 😉😁
 
-For More Details Click Help Button Below..
-@new_moviyzz
+
+
 </i>"""    
     
     HELP_TEXT = """
-<b><i><u>How To Use Me!?</u></i></b>
+<b><i><u>ആരാടാ നീ Help ചോദിച്ച് വന്നിരിക്കുന്നു</u></i></b>
 
-<i>
--> You Can't add me to your Group
 
-</i>
+
+
+
 
 <b>Bot Commands (Works Only In Groups) :</b>
 
@@ -48,7 +48,7 @@ For More Details Click Help Button Below..
     
     ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
     
-<b>➥ Creator</b> : <b><i><a href="https://t.me/null_fallaci">Master</a></i></b>
+<b>➥ Creator</b> : <b><i><a href="https://t.me/rocky_boy01">Master</a></i></b>
 
 <b>➥ Language</b> : <code>Python3</code>
 
