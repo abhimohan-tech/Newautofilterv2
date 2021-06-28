@@ -92,7 +92,7 @@ async def start(bot, update):
         InlineKeyboardButton('Group', url='https://t.me/new_moviyzz'),
         
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/new_moviyzz')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
