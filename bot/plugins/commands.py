@@ -30,7 +30,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = f"{file_name} \n @new_moviyzz",
+                caption = f"{file_name} \n @ff_new_movies_group",
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🙏Join Group🔥', url="https://t.me/new_moviyzz"
+                                    '🙏Join Group🔥', url="https://t.me/ff_new_movies_group"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔥 Join Group🙏', url="https://t.me/new_moviyzz"
+                                    '🔥 Join Group🙏', url="https://t.me/ff_new_movies_group"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔥Join Group🙏', url="https://t.me/new_moviyzz"
+                                    '🔥Join Group🙏', url="https://t.me/ff_new_movies_group"
                                 )
                         ]
                     ]
@@ -89,10 +89,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Group', url='https://t.me/new_moviyzz'),
+        InlineKeyboardButton('Group', url='https://t.me/ff_new_movies_group'),
         
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/new_moviyzz')
+        InlineKeyboardButton('Our Movies Bot 🎬', url='https://t.me/Rocky_boy_Bot')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
