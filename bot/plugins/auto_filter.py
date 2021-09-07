@@ -8,7 +8,7 @@ from pyrogram.errors import ButtonDataInvalid, FloodWait
 
 from bot.database import Database # pylint: disable=import-error
 from bot.bot import Bot # pylint: disable=import-error
-from bot import  MASSAGE_PHOTO
+from bot import  
 
 
 FIND = {}
@@ -204,7 +204,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                photo= MASSAGE_PHOTO,
+                
                 text=f"Found {(len_results)} Results For Your Query: <code>{query}</code>",
                 reply_markup=reply_markup,
                 parse_mode="html",
